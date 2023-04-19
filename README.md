@@ -48,7 +48,7 @@ NEW YORK
 
 LONDON
 
-![LON](./Images/lon.PNG)
+![LON](./Images/LON.PNG)
 
 
 Just looking at the maps it is complicated to compare this places, so I used the same API to create a function that returns me a dictionary of the distance of each place from the original coordinates. 
