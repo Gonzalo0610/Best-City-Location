@@ -1,4 +1,4 @@
-# Project-III
+# Best City Location
 
 In this project, the objective is to use both the MongoDB "Companies" and the API from FourSquare to find the perfect location for setting the office of a new Gaming Industry Startup. I divided my project in three steps: Choosing the candidates, testing if they are valid and finding the perfect place. 
 
@@ -40,18 +40,18 @@ First of all, I create a function to (longitud and latitude of a certain place g
 
 SAN FRANCISCO
 
-![SF](./Images/sf.html)
+![SF](./Images/SF.png)
 
 NEW YORK
 
-![NY](./Images/ny.html)
+![NY](./Images/NY.png)
 
 LONDON
 
-![LON](./Images/lon.html)
+![LON](./Images/lon.png)
 
 
-Just looking at the map it is complicated to compare this places, so I used the same API to create a function that returns me a dictionary of the distance of each place from the original coordinates. 
+Just looking at the maps it is complicated to compare this places, so I used the same API to create a function that returns me a dictionary of the distance of each place from the original coordinates. 
 
 Is with this distance that I want to set an equation to find the best final location out of the candidates. First of all, let's take a look at the dictionaries: for better observation I set a dataframe of the 3 dictionaries: 
 
@@ -85,8 +85,3 @@ To avoid this i created a new dataframe ranking the distance from 1 to 3 (neares
 
 
 Looking at the graph, we can conclude that NY, according to Step 2 and Step 3, is the winner. We found our perfect candidate. I hope you are ready, Ubisoft!
-
-
-PD: No hard feelings with the manteinance guy, as I did not priorize his basketball love. He is a great dude, and as we did not take into consideration the hairdresser of the office dog, I am sure he will enjoy his new mop!
-
-![Mopdog](./Images/Mopdog.jfif)
