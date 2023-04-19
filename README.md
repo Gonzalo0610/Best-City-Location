@@ -40,15 +40,15 @@ First of all, I create a function to (longitud and latitude of a certain place g
 
 SAN FRANCISCO
 
-![SF](./Images/SF.png)
+![SF](./Images/SF.PNG)
 
 NEW YORK
 
-![NY](./Images/NY.png)
+![NY](./Images/NY.PNG)
 
 LONDON
 
-![LON](./Images/lon.png)
+![LON](./Images/lon.PNG)
 
 
 Just looking at the maps it is complicated to compare this places, so I used the same API to create a function that returns me a dictionary of the distance of each place from the original coordinates. 
